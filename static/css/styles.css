@@ -2,6 +2,10 @@ header {
   display: block;
 }
 
+body {
+  height: 100vh;
+}
+
 .headline {
   transition-delay: 100ms;
   transition-duration: 200ms;
@@ -64,7 +68,8 @@ header {
   justify-content: space-around;
   align-content: center;
   padding: 3em;
-  height: 20cm;
+  /* height: 20cm; */
+  height: 100%;
   width: auto;
 }
 
